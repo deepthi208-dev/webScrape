@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.DEBUG,
 
 class searchGoogle():
 
-    def _init_(self):
+    def __init__(self):
         self.searchStr = 'duck'
         self.url = "http://www.google.com"
         self.xpath = '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input'
